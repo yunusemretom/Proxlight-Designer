@@ -1,93 +1,93 @@
 # 🎨 Proxlight Designer
 
-Figma tasarımlarınızı Python Tkinter koduna dönüştüren güçlü bir araç! 🚀
+A powerful tool that converts your Figma designs into Python Tkinter code! 🚀
 
-## ✨ Özellikler
+## ✨ Features
 
-- 🎯 Figma tasarımlarını otomatik olarak Python Tkinter koduna dönüştürme
-- 🌓 Açık/koyu tema desteği
-- 🖼️ Arka plan görselleri, butonlar ve metin alanları için tam destek
-- 📱 Özelleştirilebilir boyutlar ve konumlar
-- 🎛️ Kullanıcı dostu arayüz
+- 🎯 Automatically convert Figma designs into Python Tkinter code
+- 🌓 Support for light/dark themes
+- 🖼️ Full support for background images, buttons, and text fields
+- 📱 Customizable sizes and positions
+- 🎛️ User-friendly interface
 
-## 🚀 Başlangıç
+## 🚀 Getting Started
 
-### Exe ile Çalıştırma (Önerilen)
-1. En son sürümü indirin
-2. `Proxlight Designer.exe` dosyasını çalıştırın
-3. Figma API token'ınızı girin
-4. Figma tasarım URL'sini yapıştırın
-5. Çıktı klasörünü seçin
-6. "Create" butonuna tıklayın
+### Running with Exe (Recommended)
+1. Download the latest version
+2. Run the `Proxlight Designer.exe` file
+3. Enter your Figma API token
+4. Paste the Figma design URL
+5. Select the output folder
+6. Click the "Create" button
 
-### Python ile Çalıştırma
-1. Gereksinimleri yükleyin:
+### Running with Python
+1. Install the requirements:
 ```
 pip install requests
 ```
 
-2. Repo'yu klonlayın:
+2. Clone the repo:
 ```
 git clone https://github.com/Proxlight/Proxlight-Designer.git
 cd Proxlight-Designer
 ```
 
-3. Programı çalıştırın:
+3. Run the program:
 ```
 python "Proxlight Designer.py"
 ```
 
-## 🛠️ Kullanım
+## 🛠️ Usage
 
-1. **Figma API Token'ı Alma:**
-   - Figma hesabınızdan bir API token oluşturun
-   - Token'ı uygulamadaki ilgili alana yapıştırın
+1. **Getting the Figma API Token:**
+   - Create an API token from your Figma account
+   - Paste the token into the relevant field in the application
 
-2. **Figma URL'si:**
-   - Figma tasarımınızın URL'sini kopyalayın
-   - URL'yi uygulamaya yapıştırın
+2. **Figma URL:**
+   - Copy the URL of your Figma design
+   - Paste the URL into the application
 
-3. **Çıktı Klasörü:**
-   - Oluşturulacak Python dosyaları için bir klasör seçin
-   - "Create" butonuna tıklayın
+3. **Output Folder:**
+   - Choose a folder for the Python files to be created
+   - Click the "Create" button
 
-4. **Sonuç:**
-   - Program otomatik olarak bir `Proxlight_Designer_Export` klasörü oluşturacak
-   - Bu klasörde `window.py` ve gerekli görsel dosyaları bulunacak
+4. **Result:**
+   - The program will automatically create a `Proxlight_Designer_Export` folder
+   - This folder will contain `window.py` and the necessary image files
 
-## 🎯 Desteklenen Elementler
+## 🎯 Supported Elements
 
-- 📦 Dikdörtgenler
-- 🔘 Butonlar
-- 📝 Metin alanları
-- 🖊️ Metin girişleri
-- 🖼️ Arka plan görselleri
+- 📦 Rectangles
+- 🔘 Buttons
+- 📝 Text fields
+- 🖊️ Text inputs
+- 🖼️ Background images
 
-## ⚠️ Gereksinimler
+## ⚠️ Requirements
 
 - Python 3.6+
-- Tkinter (Python ile birlikte gelir)
-- Requests kütüphanesi
+- Tkinter (comes with Python)
+- Requests library
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Bu repo'yu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/amazing`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Harika özellik eklendi'`)
-4. Branch'inizi push edin (`git push origin feature/amazing`)
-5. Bir Pull Request oluşturun
+1. Fork this repo
+2. Create a new branch (`git checkout -b feature/amazing`)
+3. Commit your changes (`git commit -m 'Added amazing feature'`)
+4. Push your branch (`git push origin feature/amazing`)
+5. Create a Pull Request
 
-## 📝 Lisans
+## 📝 License
 
-Bu proje BSD 3-Clause lisansı altında lisanslanmıştır.
+This project is licensed under the BSD 3-Clause License.
 
-| İzinler | Kısıtlamalar | Koşullar |
-|---------|--------------|-----------|
-| ✅ Ticari Kullanım | ❌ Sorumluluk | ⚠️ Lisans ve Telif Hakkı Bildirimi |
-| ✅ Değişiklik | ❌ Garanti | |
-| ✅ Dağıtım | | |
-| ✅ Özel Kullanım | | |
+| Permissions | Restrictions | Conditions |
+|-------------|--------------|------------|
+| ✅ Commercial Use | ❌ Liability | ⚠️ License and Copyright Notice |
+| ✅ Modification | ❌ Warranty | |
+| ✅ Distribution | | |
+| ✅ Private Use | | |
 
+🌟 If you liked this project, don't forget to give it a star!
 
-
-🌟 Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+For Turkish users, you can find the Turkish version of the README [here](README_tr.md).
